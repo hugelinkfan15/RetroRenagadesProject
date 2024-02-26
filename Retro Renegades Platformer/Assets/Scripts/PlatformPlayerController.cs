@@ -23,7 +23,7 @@ public class PlatformPlayerController : MonoBehaviour
         //Ensure the groundCheck variable is assigned
         if ( groundCheck == null)
         {
-            Debug.LogError("GroundCheck not assigned to th player controller!");
+            Debug.LogError("GroundCheck not assigned to the player controller!");
         }
     }
 
@@ -38,7 +38,9 @@ public class PlatformPlayerController : MonoBehaviour
         {
             //Apply an upward force for jumping
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            
         }
+        
     }
 
     private void FixedUpdate()
@@ -58,6 +60,6 @@ public class PlatformPlayerController : MonoBehaviour
         {
             transform.localScale = new Vector3(-1f, 1f, 1f); // Facing Left
         }
-
+       
     }
 }
