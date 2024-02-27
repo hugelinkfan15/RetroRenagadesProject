@@ -136,7 +136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3808847546322372441, guid: 15c985d056bb1d64fab5d91ef3504a07, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 3808847546322372446, guid: 15c985d056bb1d64fab5d91ef3504a07, type: 3}
       propertyPath: m_LocalPosition.y
@@ -206,9 +206,17 @@ PrefabInstance:
       propertyPath: groundCheck
       value: 
       objectReference: {fileID: 1572522920}
+    - target: {fileID: 3808847546501991653, guid: 15c985d056bb1d64fab5d91ef3504a07, type: 3}
+      propertyPath: groundCheckRadius
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 3808847546501991654, guid: 15c985d056bb1d64fab5d91ef3504a07, type: 3}
       propertyPath: m_Name
       value: PlayerPlatformer
+      objectReference: {fileID: 0}
+    - target: {fileID: 3808847546501991654, guid: 15c985d056bb1d64fab5d91ef3504a07, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3808847546501991655, guid: 15c985d056bb1d64fab5d91ef3504a07, type: 3}

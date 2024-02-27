@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 3808847546501991653}
   - component: {fileID: 3808847546501991652}
   - component: {fileID: 3808847546501991655}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Platformer Prefab
   m_TagString: Player
   m_Icon: {fileID: 0}
