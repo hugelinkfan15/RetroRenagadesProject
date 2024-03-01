@@ -1,18 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UIElements;
 
 public class SwitchScene : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public SceneAsset selectedScene;
 
-    // Update is called once per frame
-    void Update()
+  public void switchScene()
     {
-        
+        SceneManager.LoadScene(selectedScene.GetHashCode());
+       
     }
 }
