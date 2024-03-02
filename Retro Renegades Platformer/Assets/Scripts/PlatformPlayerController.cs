@@ -14,6 +14,8 @@ public class PlatformPlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private bool isGrounded;
     private float horizontalInput;
+
+    [SerializeField] private AudioClip jumpSoundClip;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,7 +36,7 @@ public class PlatformPlayerController : MonoBehaviour
         horizontalInput = Input.GetAxis("Horizontal");
 
         //Check for jump input
-        if(Input.GetButtonDown("Jump") && isGrounded)
+        if(Input.GetButtonDown("Jump") && isGrounded && !PauseMenu.isPaused)
         {
             //Apply an upward force for jumping
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
@@ -52,11 +54,11 @@ public class PlatformPlayerController : MonoBehaviour
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
 
         //Optionally, you can add animations or other behavior here based on player state
-        if(horizontalInput > 0 )
+        if(horizontalInput > 0 && !PauseMenu.isPaused)
         {
             transform.localScale = new Vector3(1f, 1f, 1f); // Facing right
         }
-        else if (horizontalInput < 0 )
+        else if (horizontalInput < 0 && !PauseMenu.isPaused)
         {
             transform.localScale = new Vector3(-1f, 1f, 1f); // Facing Left
         }
