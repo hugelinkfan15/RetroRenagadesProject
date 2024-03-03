@@ -105,6 +105,7 @@ MonoBehaviour:
     m_Bits: 64
   groundCheck: {fileID: 3122926769735849179}
   groundCheckRadius: 0.2
+  jumpSoundClip: {fileID: 8300000, guid: 313ac2fa9da376d459d190e71aa4e066, type: 3}
 --- !u!50 &3122926768456174487
 Rigidbody2D:
   serializedVersion: 4

@@ -40,6 +40,8 @@ public class PlatformPlayerController : MonoBehaviour
         {
             //Apply an upward force for jumping
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+
+            SoundFXManager.instance.PlaySoundFXCLip(jumpSoundClip,transform, 1f);
             
         }
         
