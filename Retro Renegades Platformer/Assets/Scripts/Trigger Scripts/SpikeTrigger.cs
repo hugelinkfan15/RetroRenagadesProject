@@ -15,7 +15,7 @@ public class SpikeTrigger : MonoBehaviour
         {
             // Call a function to handle player death
             KillPlayer(other.gameObject);
-            deathManager.PlayerDied(); // Call PlayerDied() from DeathManager
+            deathManager.PlayerDied();  // Call PlayerDied() from DeathManager
         }
     }
 
