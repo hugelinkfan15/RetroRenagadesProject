@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7261819607310810330}
   - component: {fileID: 5279344837988630125}
   - component: {fileID: 6431021838666647812}
+  - component: {fileID: 7981986572439679514}
   m_Layer: 0
   m_Name: LongSpikePlatform
   m_TagString: Untagged
@@ -131,3 +132,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &7981986572439679514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7261819607310810331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58aacd2ce6697894badde7efc31bd91f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathCount: 0
+  deathCountText: {fileID: 0}
+  respawnPoint: {fileID: 0}
+  player: {fileID: 0}

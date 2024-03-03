@@ -1,27 +1,29 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro; 
 
 public class SpikeTrigger : MonoBehaviour
 {
-    //Will continue working on this 3/1 2 pm - 5 pm 
 
-    //public bool gameOver = false; 
+    public DeathManager deathManager;
 
-    // Start is called before the first frame update
-    void Start()
+    // Function called when something enters the trigger collider
+    private void OnTriggerEnter(Collider other)
     {
-        //if (collisionGameObject == "Player")
-        //{
-        //    gameOver = true; 
-
-        
+        // Check if the object entering the trigger is tagged as "Player"
+        if (other.CompareTag("Player"))
+        {
+            // Call a function to handle player death
+            KillPlayer(other.gameObject);
+            deathManager.PlayerDied(); // Call PlayerDied() from DeathManager
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    // Function to handle player death
+    private void KillPlayer(GameObject player)
     {
-        
+        // For example, you might reset player position, decrease health, or trigger a death animation
+        // For simplicity, let's just deactivate the player object
+        player.SetActive(false);
     }
 }
