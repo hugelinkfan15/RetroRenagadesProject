@@ -25,14 +25,14 @@ public class DeathManager : MonoBehaviour
     }
 
     // Function to respawn the player
-    private void RespawnPlayer()
+     void RespawnPlayer()
     {
         player.transform.position = respawnPoint.position;
         player.SetActive(true);
     }
 
     // Function to update death count text
-    private void UpdateDeathCountText()
+     void UpdateDeathCountText()
     {
         deathCountText.text = "Deaths: " + deathCount;
     }

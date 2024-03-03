@@ -245,13 +245,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 6431021838666647812, guid: a9517f3816672b04fa8f0a4bc2e6415d, type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7261819607310810331, guid: a9517f3816672b04fa8f0a4bc2e6415d, type: 3}
       propertyPath: m_Name
       value: LongSpikePlatform
+      objectReference: {fileID: 0}
+    - target: {fileID: 7261819607310810331, guid: a9517f3816672b04fa8f0a4bc2e6415d, type: 3}
+      propertyPath: m_TagString
+      value: Spikes
       objectReference: {fileID: 0}
     - target: {fileID: 7261819607310810333, guid: a9517f3816672b04fa8f0a4bc2e6415d, type: 3}
       propertyPath: m_RootOrder
@@ -301,10 +301,6 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1488236644}
-    - target: {fileID: 7981986572439679514, guid: a9517f3816672b04fa8f0a4bc2e6415d, type: 3}
-      propertyPath: deathCount
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7981986572439679514, guid: a9517f3816672b04fa8f0a4bc2e6415d, type: 3}
       propertyPath: respawnPoint
       value: 
@@ -533,7 +529,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: 'Deaths: '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

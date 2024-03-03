@@ -8,7 +8,7 @@ public class SpikeTrigger : MonoBehaviour
     public DeathManager deathManager;
 
     // Function called when something enters the trigger collider
-    private void OnTriggerEnter(Collider other)
+     void OnTriggerEnter(Collider other)
     {
         // Check if the object entering the trigger is tagged as "Player"
         if (other.CompareTag("Player"))
@@ -20,7 +20,7 @@ public class SpikeTrigger : MonoBehaviour
     }
 
     // Function to handle player death
-    private void KillPlayer(GameObject player)
+     void KillPlayer(GameObject player)
     {
         // For example, you might reset player position, decrease health, or trigger a death animation
         // For simplicity, let's just deactivate the player object

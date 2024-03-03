@@ -21,11 +21,11 @@ public class ScoreManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-         if (!gameOver)
+         if (gameOver)
          {
-             textbox.text = "Press R to Restart";
+             textbox.text = "Press R to Respawn";
          }
-
+         
         if (Input.GetKeyDown(KeyCode.R))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
