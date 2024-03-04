@@ -178,6 +178,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8851977521475516928, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: deathManager
+      value: 
+      objectReference: {fileID: 1140262585}
     m_RemovedComponents:
     - {fileID: 3534076828652998915, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
@@ -362,6 +366,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathManager
       objectReference: {fileID: 0}
+    - target: {fileID: 3164330281131011997, guid: a9517f3816672b04fa8f0a4bc2e6415d, type: 3}
+      propertyPath: deathManager
+      value: 
+      objectReference: {fileID: 1140262585}
     - target: {fileID: 6431021838666647812, guid: a9517f3816672b04fa8f0a4bc2e6415d, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -417,18 +425,6 @@ PrefabInstance:
     - target: {fileID: 7261819607310810333, guid: a9517f3816672b04fa8f0a4bc2e6415d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1488236644}
-    - target: {fileID: 0}
-      propertyPath: respawnPoint
-      value: 
-      objectReference: {fileID: 1488236649}
-    - target: {fileID: 0}
-      propertyPath: deathCountText
-      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -634,11 +630,6 @@ PrefabInstance:
 --- !u!1 &1488236644 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3122926768456174482, guid: 15c985d056bb1d64fab5d91ef3504a07, type: 3}
-  m_PrefabInstance: {fileID: 3122926770081833921}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1488236649 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3122926768456174488, guid: 15c985d056bb1d64fab5d91ef3504a07, type: 3}
   m_PrefabInstance: {fileID: 3122926770081833921}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &1488236650
