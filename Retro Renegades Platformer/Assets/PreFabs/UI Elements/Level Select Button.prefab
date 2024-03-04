@@ -92,8 +92,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 80
-  m_fontSizeBase: 80
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -171,8 +171,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -798, y: 398}
-  m_SizeDelta: {x: 136, y: 136}
+  m_AnchoredPosition: {x: 103, y: -32.788}
+  m_SizeDelta: {x: 66.3845, y: 65.5751}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2602772147425958613
 CanvasRenderer:
@@ -280,4 +280,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8bd5e9048f2f34a819aecf32d12eb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedScene: {fileID: 0}
+  scene:
+    sceneAsset: {fileID: 0}
+    scenePath: 

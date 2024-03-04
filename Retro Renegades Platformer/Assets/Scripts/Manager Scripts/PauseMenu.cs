@@ -20,7 +20,8 @@ public class PauseMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Escape))
+        //Checks if the menu is alreadt active when P is pressed by the user
+        if(Input.GetKeyDown(KeyCode.P))
         {
             if(menu.activeSelf)
             {

@@ -14,7 +14,7 @@ public class InnerMenus : MonoBehaviour
 
     public void Update()
     {
-        if (Input.GetKeyUp(KeyCode.Escape))
+        if (Input.GetKeyUp(KeyCode.P))
             Deactivate();
     }
 }
