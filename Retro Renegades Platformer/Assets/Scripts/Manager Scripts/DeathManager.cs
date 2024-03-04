@@ -5,10 +5,11 @@ using TMPro;
 
 public class DeathManager : MonoBehaviour
 {
-    public static int deathCount = 0;
+    public static int deathCount;
     public TMP_Text deathCountText;
     public Transform respawnPoint;
     public GameObject player;
+    public static int tDeaths = 0;
     public int yDeathZone;
 
     /// <summary>
@@ -34,6 +35,7 @@ public class DeathManager : MonoBehaviour
     public void PlayerDied()
     {
         deathCount++;
+        tDeaths++;
         UpdateDeathCountText();
         RespawnPlayer();
     }
