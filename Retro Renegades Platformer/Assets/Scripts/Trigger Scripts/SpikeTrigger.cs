@@ -8,13 +8,13 @@ public class SpikeTrigger : MonoBehaviour
     public DeathManager deathManager;
 
     // Function called when something enters the trigger collider
-     void OnTriggerEnter(Collider other)
+     void OnTriggerEnter2D(Collider2D collison)
     {
         // Check if the object entering the trigger is tagged as "Player"
-        if (other.CompareTag("Player"))
+        if (collison.gameObject.tag == ("Player"))
         {
             // Call a function to handle player death
-            KillPlayer(other.gameObject);
+            KillPlayer(collison.gameObject);
             deathManager.PlayerDied();  // Call PlayerDied() from DeathManager
         }
     }

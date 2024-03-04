@@ -28,7 +28,7 @@ public class DeathManager : MonoBehaviour
     // Function to respawn the player
      void RespawnPlayer()
     {
-        player.transform.position = respawnPoint.position;
+        player.transform.position = respawnPoint.transform.position;
         player.SetActive(true);
     }
 
