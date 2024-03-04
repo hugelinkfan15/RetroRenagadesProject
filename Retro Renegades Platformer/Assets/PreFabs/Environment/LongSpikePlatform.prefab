@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7261819607310810330}
   - component: {fileID: 5279344837988630125}
   - component: {fileID: 6431021838666647812}
-  - component: {fileID: 7981986572439679514}
+  - component: {fileID: 3164330281131011997}
   m_Layer: 0
   m_Name: LongSpikePlatform
   m_TagString: Spikes
@@ -30,7 +30,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 16.008366, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 6663086138236110282}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -132,7 +133,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &7981986572439679514
+--- !u!114 &3164330281131011997
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,9 +142,92 @@ MonoBehaviour:
   m_GameObject: {fileID: 7261819607310810331}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 279b6fc2875789049bd731b68da4b625, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathManager: {fileID: 1958858690807969091}
+--- !u!1001 &8284271065000881976
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7261819607310810333}
+    m_Modifications:
+    - target: {fileID: 2814969140032151573, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 3122926768456174482, guid: 15c985d056bb1d64fab5d91ef3504a07, type: 3}
+    - target: {fileID: 3355090660713048818, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355090660713048818, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.9619763
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355090660713048818, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5307763
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355090660713048818, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -156.14732
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355090660713048818, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355090660713048818, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355090660713048818, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355090660713048818, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355090660713048818, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355090660713048818, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355090660713048818, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7624502108456620051, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
+      propertyPath: m_Name
+      value: Death+Respawn
+      objectReference: {fileID: 0}
+    - target: {fileID: 7627100220457163386, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
+      propertyPath: m_Name
+      value: deathManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 7627100220457163387, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 3122926768456174482, guid: 15c985d056bb1d64fab5d91ef3504a07, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
+--- !u!4 &6663086138236110282 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3355090660713048818, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
+  m_PrefabInstance: {fileID: 8284271065000881976}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1958858690807969091 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7627100220457163387, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
+  m_PrefabInstance: {fileID: 8284271065000881976}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 58aacd2ce6697894badde7efc31bd91f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathCountText: {fileID: 0}
-  respawnPoint: {fileID: 0}
-  player: {fileID: 0}
