@@ -10,14 +10,18 @@ public class DeathManager : MonoBehaviour
     public Transform respawnPoint;
     public GameObject player;
 
-    // Start is called before the first frame update
+    /// <summary>
+    /// Start is called before the first frame update
+    /// </summary>
     void Start()
     {
         deathCount = 0;
         UpdateDeathCountText();
     }
 
-    // Function to handle player death
+    /// <summary>
+    /// Function to handle player death
+    /// </summary>
     public void PlayerDied()
     {
         deathCount++;
@@ -25,14 +29,18 @@ public class DeathManager : MonoBehaviour
         RespawnPlayer();
     }
 
-    // Function to respawn the player
+    /// <summary>
+    /// Function to respawn the player
+    /// </summary>
      void RespawnPlayer()
     {
         player.transform.position = respawnPoint.transform.position;
         player.SetActive(true);
     }
 
-    // Function to update death count text
+    /// <summary>
+    /// Function to update death count text
+    /// </summary>
      void UpdateDeathCountText()
     {
         deathCountText.text = "Deaths: " + deathCount;

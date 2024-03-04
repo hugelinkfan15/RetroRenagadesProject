@@ -33,6 +33,9 @@ public class PauseMenu : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Resumes the game by setting timescale to 1,removing the menu object, and setting isPaused to false
+    /// </summary>
     public void resumeGame()
     {
         menu.SetActive(false);
@@ -41,6 +44,9 @@ public class PauseMenu : MonoBehaviour
         isPaused = false;
     }
 
+    /// <summary>
+    /// "Pauses" the game by setting time scale to 0 to pause game psychics, and changes the public boolean isPaused to true so other scripts can access it 
+    /// </summary>
     public void pauseGame()
     {
         menu.SetActive(true);
