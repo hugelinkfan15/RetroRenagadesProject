@@ -7,11 +7,11 @@ using UnityEngine.UIElements;
 
 public class SwitchScene : MonoBehaviour
 {
-    public SceneAsset selectedScene;
+    public SceneReference scene ;
 
   public void switchScene()
     {
-        SceneManager.LoadScene(selectedScene.name);
+        SceneManager.LoadScene(scene);
        
     }
 }

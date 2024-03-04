@@ -180,7 +180,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8bd5e9048f2f34a819aecf32d12eb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedScene: {fileID: 102900000, guid: 5fa7e80091cc3544d96341f73d584592, type: 3}
+  scene:
+    sceneAsset: {fileID: 102900000, guid: 5fa7e80091cc3544d96341f73d584592, type: 3}
+    scenePath: Assets/Scenes/Title.unity
 --- !u!114 &277234992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -288,6 +290,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2602772147425958608, guid: 9e95e02f48d703d4eb3791e83694faf9, type: 3}
       propertyPath: selectedScene
+      value: 
+      objectReference: {fileID: 102900000, guid: 923ff96d9e135d74096b90ef12244483, type: 3}
+    - target: {fileID: 2602772147425958608, guid: 9e95e02f48d703d4eb3791e83694faf9, type: 3}
+      propertyPath: scene.scenePath
+      value: Assets/Scenes/ActualStage3.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: 2602772147425958608, guid: 9e95e02f48d703d4eb3791e83694faf9, type: 3}
+      propertyPath: scene.sceneAsset
       value: 
       objectReference: {fileID: 102900000, guid: 923ff96d9e135d74096b90ef12244483, type: 3}
     - target: {fileID: 2602772147425958609, guid: 9e95e02f48d703d4eb3791e83694faf9, type: 3}
@@ -437,7 +447,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8bd5e9048f2f34a819aecf32d12eb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedScene: {fileID: 102900000, guid: 3966e469508d92042863df084575c7aa, type: 3}
+  scene:
+    sceneAsset: {fileID: 102900000, guid: 3966e469508d92042863df084575c7aa, type: 3}
+    scenePath: Assets/Scenes/ActualStage2.unity
 --- !u!114 &831747541
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1063,6 +1075,14 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2602772147425958608, guid: 9e95e02f48d703d4eb3791e83694faf9, type: 3}
       propertyPath: selectedScene
+      value: 
+      objectReference: {fileID: 102900000, guid: d98fe92667cefca40aede330852125f3, type: 3}
+    - target: {fileID: 2602772147425958608, guid: 9e95e02f48d703d4eb3791e83694faf9, type: 3}
+      propertyPath: scene.scenePath
+      value: Assets/Scenes/ActualStage1.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: 2602772147425958608, guid: 9e95e02f48d703d4eb3791e83694faf9, type: 3}
+      propertyPath: scene.sceneAsset
       value: 
       objectReference: {fileID: 102900000, guid: d98fe92667cefca40aede330852125f3, type: 3}
     - target: {fileID: 2602772147425958609, guid: 9e95e02f48d703d4eb3791e83694faf9, type: 3}
