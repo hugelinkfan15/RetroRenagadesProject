@@ -871,5 +871,9 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 670145410}
+    - target: {fileID: 7627100220457163387, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
+      propertyPath: yDeathZone
+      value: -100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}

@@ -9,6 +9,7 @@ public class DeathManager : MonoBehaviour
     public TMP_Text deathCountText;
     public Transform respawnPoint;
     public GameObject player;
+    public int yDeathZone;
 
     /// <summary>
     /// Start is called before the first frame update
@@ -17,6 +18,14 @@ public class DeathManager : MonoBehaviour
     {
         deathCount = 0;
         UpdateDeathCountText();
+    }
+
+    void Update()
+    {
+        if(player.transform.position.y < yDeathZone)
+        {
+            PlayerDied();
+        }
     }
 
     /// <summary>
