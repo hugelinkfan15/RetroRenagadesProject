@@ -5,7 +5,7 @@ using TMPro;
 
 public class DeathManager : MonoBehaviour
 {
-    public int deathCount = 0;
+    public static int deathCount = 0;
     public TMP_Text deathCountText;
     public Transform respawnPoint;
     public GameObject player;
@@ -13,6 +13,7 @@ public class DeathManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        deathCount = 0;
         UpdateDeathCountText();
     }
 
