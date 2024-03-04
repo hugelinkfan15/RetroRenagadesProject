@@ -14,6 +14,12 @@ public class SoundFXManager : MonoBehaviour
         if (instance == null) { instance = this; }
     }
 
+    /// <summary>
+    /// Play a specifc audio clip
+    /// </summary>
+    /// <param name="audioClip"></param>
+    /// <param name="spawnTransform"></param>
+    /// <param name="volume"></param>
     public void PlaySoundFXCLip(AudioClip audioClip, Transform spawnTransform, float volume)
     {
         //spawn in gameObject
@@ -34,7 +40,12 @@ public class SoundFXManager : MonoBehaviour
         //destroy the clip after it is done playing
         Destroy(audioSource.gameObject, clipLength);
     }
-
+    /// <summary>
+    /// Cycles through a given array of AudioClips to randomly play
+    /// </summary>
+    /// <param name="audioClip"></param>
+    /// <param name="spawnTransform"></param>
+    /// <param name="volume"></param>
     public void PlayRandSoundFXCLip(AudioClip[] audioClip, Transform spawnTransform, float volume)
     {
         //assign a random index
