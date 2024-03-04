@@ -3,7 +3,9 @@ guid: 279b6fc2875789049bd731b68da4b625
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - CorpsePlatform: {fileID: 3122325509297349487, guid: 5b9aeb9e66fd67e4b97bef3fe85da7bb, type: 3}
+  - deathManager: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

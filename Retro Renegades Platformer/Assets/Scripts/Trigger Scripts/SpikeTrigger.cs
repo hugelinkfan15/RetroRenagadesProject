@@ -5,6 +5,7 @@ using UnityEngine;
 public class SpikeTrigger : MonoBehaviour
 {
 
+    public GameObject CorpsePlatform;
     public DeathManager deathManager;
 
     // Function called when something enters the trigger collider
@@ -25,5 +26,14 @@ public class SpikeTrigger : MonoBehaviour
         // For example, you might reset player position, decrease health, or trigger a death animation
         // For simplicity, let's just deactivate the player object
         player.SetActive(false);
+        SpawnCorpsePlatform(player.transform.position);
+    }
+    void SpawnCorpsePlatform(Vector2 position)
+    {
+        float yOffset = -0.8f;
+
+        Vector3 spawnPosition = new Vector3(position.x, position.y + yOffset);
+        GameObject newCorpsePlatform = Instantiate(CorpsePlatform, spawnPosition, Quaternion.identity);
+
     }
 }
