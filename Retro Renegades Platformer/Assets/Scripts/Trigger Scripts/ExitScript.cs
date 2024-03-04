@@ -10,9 +10,9 @@ public class ExitScript : MonoBehaviour
     {
 
     }
-    public void OnTriggerEnter2D(Collider2D collision)
+    public void OnTriggerEnter2D(Collider2D other)
     {
-        if(collision.gameObject.name == "Player")
+        if(other.tag == "Player")
         {
 
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
