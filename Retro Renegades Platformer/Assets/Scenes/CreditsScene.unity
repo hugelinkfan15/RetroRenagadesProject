@@ -159,7 +159,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.5186899, g: 0.65817213, b: 0.8773585, a: 0}
+  m_BackGroundColor: {r: 0.990566, g: 0.98468494, b: 0.5669277, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -430,8 +430,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Retro Renegades Group Members:\nDuncan Barner \nKayden Miller\n Sarah
-    Dasilva\nTreasure Keys\nJohnny Chirayil\n\nMusic Composed By\nLola Frost"
+  m_text: "Thanks for playing our game!\n\nRetro Renegades Group Members:\nDuncan
+    Barner \nKayden Miller\n Sarah Dasilva\nTreasure Keys\nJohnny Chirayil\n\nMusic
+    Composed By\nLola Frost"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

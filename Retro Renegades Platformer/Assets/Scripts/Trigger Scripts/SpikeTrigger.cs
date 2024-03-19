@@ -23,8 +23,7 @@ public class SpikeTrigger : MonoBehaviour
     // Function to handle player death
      void KillPlayer(GameObject player)
     {
-        // For example, you might reset player position, decrease health, or trigger a death animation
-        // For simplicity, let's just deactivate the player object
+        
         player.SetActive(false);
         SpawnCorpsePlatform(player.transform.position);
     }
@@ -34,6 +33,8 @@ public class SpikeTrigger : MonoBehaviour
 
         Vector3 spawnPosition = new Vector3(position.x, position.y + yOffset);
         GameObject newCorpsePlatform = Instantiate(CorpsePlatform, spawnPosition, Quaternion.identity);
+
+        //newCorpsePlatform.layer = LayerMask.NameToLayer("Ground");
 
     }
 }
