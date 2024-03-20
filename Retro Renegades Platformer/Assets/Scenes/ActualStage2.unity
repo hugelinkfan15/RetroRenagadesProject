@@ -1472,6 +1472,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Main Camera (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8565258054438209855, guid: 872c6d740dca876449f9a529ed321c12, type: 3}
+      propertyPath: orthographic size
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8565258054438209984, guid: 872c6d740dca876449f9a529ed321c12, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1518,6 +1522,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 872c6d740dca876449f9a529ed321c12, type: 3}
+--- !u!1 &584055648 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8565258054438209852, guid: 872c6d740dca876449f9a529ed321c12, type: 3}
+  m_PrefabInstance: {fileID: 584055647}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &584055649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584055648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7f1c4690df89354bbd591b074712858, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 192922929}
 --- !u!4 &584086900 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4538243148663536087, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
@@ -2550,6 +2572,10 @@ PrefabInstance:
     - target: {fileID: 3122926768456174484, guid: 15c985d056bb1d64fab5d91ef3504a07, type: 3}
       propertyPath: m_Offset.y
       value: -0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122926768456174486, guid: 15c985d056bb1d64fab5d91ef3504a07, type: 3}
+      propertyPath: fallingSpeed
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3122926768456174488, guid: 15c985d056bb1d64fab5d91ef3504a07, type: 3}
       propertyPath: m_RootOrder
