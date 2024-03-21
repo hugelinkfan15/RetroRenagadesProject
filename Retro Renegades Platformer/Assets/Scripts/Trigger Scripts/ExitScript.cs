@@ -9,6 +9,7 @@ public class ExitScript : MonoBehaviour
 
     public TMP_Text winText;
     public bool isFinalLevel = false;
+    public int levelKey;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +19,7 @@ public class ExitScript : MonoBehaviour
     {
         if(other.tag == "Player")
         {
+            LevelTracker.levelTracker[levelKey] = true;
             if (isFinalLevel)
             {
                 ShowWinText();

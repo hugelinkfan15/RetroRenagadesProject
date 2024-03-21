@@ -327,6 +327,10 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8065038199884036332, guid: 446a1614ac06c9c49bf20504910d65c4, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 8144274348667759938, guid: 446a1614ac06c9c49bf20504910d65c4, type: 3}
       propertyPath: m_Name
       value: All Menus+Need Managers
@@ -421,6 +425,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 446a1614ac06c9c49bf20504910d65c4, type: 3}
+--- !u!114 &405208328 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2988305998605351677, guid: 446a1614ac06c9c49bf20504910d65c4, type: 3}
+  m_PrefabInstance: {fileID: 405208327}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &480992644
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -693,17 +708,6 @@ PrefabInstance:
       objectReference: {fileID: 2073376809}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
---- !u!114 &623917388 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 623917388, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
-  m_PrefabInstance: {fileID: 1400052474}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &631610514 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4538243148663536087, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
@@ -1192,7 +1196,11 @@ PrefabInstance:
     - target: {fileID: 4984854426241005998, guid: f3900289d2a3f8349a3e835c89600095, type: 3}
       propertyPath: winText
       value: 
-      objectReference: {fileID: 623917388}
+      objectReference: {fileID: 405208328}
+    - target: {fileID: 4984854426241005998, guid: f3900289d2a3f8349a3e835c89600095, type: 3}
+      propertyPath: levelKey
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4984854426241005999, guid: f3900289d2a3f8349a3e835c89600095, type: 3}
       propertyPath: m_Size.x
       value: 0.5
