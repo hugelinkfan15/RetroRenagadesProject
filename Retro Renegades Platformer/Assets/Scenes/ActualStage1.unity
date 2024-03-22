@@ -1909,20 +1909,44 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 900883354, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
+      propertyPath: m_fontStyle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 900883354, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
       propertyPath: m_fontColor.b
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 900883354, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
       propertyPath: m_fontColor.g
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 900883354, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
       propertyPath: m_fontColor.r
-      value: 0
+      value: 0.99607843
       objectReference: {fileID: 0}
     - target: {fileID: 900883354, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 4278190080
+      value: 4278255614
+      objectReference: {fileID: 0}
+    - target: {fileID: 1077674100869942244, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
+      propertyPath: m_fontStyle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1077674100869942244, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1077674100869942244, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0.99607843
+      objectReference: {fileID: 0}
+    - target: {fileID: 1077674100869942244, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4278255614
+      objectReference: {fileID: 0}
+    - target: {fileID: 1581940413808588530, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
+      propertyPath: m_fontStyle
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1581940413808588530, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
       propertyPath: m_fontColor.b
@@ -1930,15 +1954,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1581940413808588530, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
       propertyPath: m_fontColor.g
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1581940413808588530, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
       propertyPath: m_fontColor.r
-      value: 0
+      value: 0.99607843
       objectReference: {fileID: 0}
     - target: {fileID: 1581940413808588530, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 4278190080
+      value: 4278255614
       objectReference: {fileID: 0}
     - target: {fileID: 2814969140032151572, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2001,20 +2025,24 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 192922929}
     - target: {fileID: 7627100220700772232, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
+      propertyPath: m_fontStyle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7627100220700772232, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
       propertyPath: m_fontColor.b
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7627100220700772232, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
       propertyPath: m_fontColor.g
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7627100220700772232, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
       propertyPath: m_fontColor.r
-      value: 0
+      value: 0.992313
       objectReference: {fileID: 0}
     - target: {fileID: 7627100220700772232, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 4278190080
+      value: 4278255613
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
