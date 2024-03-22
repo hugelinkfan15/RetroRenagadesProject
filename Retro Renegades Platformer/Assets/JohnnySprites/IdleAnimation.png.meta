@@ -4,7 +4,7 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -1496642684519901557
-    second: IdleAnimation_1
+    second: IdleAnimation_0
   - first:
       213: -797777345054056830
     second: IdleAnimation_2
@@ -25,7 +25,19 @@ TextureImporter:
     second: IdleAnimation_7
   - first:
       213: 2667864934834651285
-    second: IdleBlink
+    second: IdleAnimation_8
+  - first:
+      213: -5402807115304885802
+    second: IdleAnimation_0
+  - first:
+      213: -6848828974162404022
+    second: IdleAnimation_9
+  - first:
+      213: 2154143689849386256
+    second: IdleAnimation_10
+  - first:
+      213: 7932295544910585891
+    second: IdleAnimation_11
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -70,7 +82,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 400
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -128,15 +140,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IdleAnimation_1
+      name: IdleAnimation_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 583
+        y: 581.3334
         width: 245
-        height: 288
+        height: 290.66666
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -152,12 +164,12 @@ TextureImporter:
       name: IdleAnimation_2
       rect:
         serializedVersion: 2
-        x: 249
-        y: 583
+        x: 490
+        y: 581.3334
         width: 245
-        height: 288
+        height: 290.66666
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -173,12 +185,12 @@ TextureImporter:
       name: IdleAnimation_3
       rect:
         serializedVersion: 2
-        x: 493
-        y: 584
+        x: 735
+        y: 581.3334
         width: 245
-        height: 288
+        height: 290.66666
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -194,12 +206,12 @@ TextureImporter:
       name: IdleAnimation_4
       rect:
         serializedVersion: 2
-        x: 740
-        y: 580
-        width: 240
-        height: 288
+        x: 0
+        y: 291.33334
+        width: 245
+        height: 290.66666
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -215,12 +227,12 @@ TextureImporter:
       name: IdleAnimation_5
       rect:
         serializedVersion: 2
-        x: 3
-        y: 294
+        x: 245
+        y: 291.33334
         width: 245
-        height: 305
+        height: 290.66666
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -236,12 +248,12 @@ TextureImporter:
       name: IdleAnimation_6
       rect:
         serializedVersion: 2
-        x: 252
-        y: 291
+        x: 490
+        y: 291.33334
         width: 245
-        height: 288
+        height: 290.66666
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -257,12 +269,12 @@ TextureImporter:
       name: IdleAnimation_7
       rect:
         serializedVersion: 2
-        x: 497
-        y: 294
+        x: 735
+        y: 291.33334
         width: 245
-        height: 288
+        height: 290.66666
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -275,22 +287,106 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleBlink
+      name: IdleAnimation_8
       rect:
         serializedVersion: 2
-        x: 741
-        y: 0
-        width: 239
-        height: 288
+        x: 0
+        y: 1.3333435
+        width: 245
+        height: 290.66666
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 1}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 5904a85f509260520800000000000000
       internalID: 2667864934834651285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnimation_1
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 581.3334
+        width: 245
+        height: 290.66666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1ac4ecd8f5505b0800000000000000
+      internalID: -5402807115304885802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnimation_9
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1.3333435
+        width: 245
+        height: 290.66666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d95aba55214f0a0800000000000000
+      internalID: -6848828974162404022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnimation_10
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1.3333435
+        width: 245
+        height: 290.66666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0153f94d54e05ed10800000000000000
+      internalID: 2154143689849386256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnimation_11
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1.3333435
+        width: 245
+        height: 290.66666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3202fcf55cc251e60800000000000000
+      internalID: 7932295544910585891
       vertices: []
       indices: 
       edges: []

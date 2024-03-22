@@ -1,5 +1,7 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using UnityEngine;
 
 public class PlatformPlayerController : MonoBehaviour
@@ -18,8 +20,10 @@ public class PlatformPlayerController : MonoBehaviour
     private float horizontalInput;
     private bool isJumping;
     private float jumpTimeCounter;
+   
 
     [SerializeField] private AudioClip jumpSoundClip;
+    public Animator animator;
 
     void Start()
     {
@@ -51,6 +55,7 @@ public class PlatformPlayerController : MonoBehaviour
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
             isJumping = true;
+           animator.SetBool("IsJumpingAnim", true);
             jumpTimeCounter = 0;
             SoundFXManager.instance.PlaySoundFXCLip(jumpSoundClip, transform, 1f);
         }
@@ -60,11 +65,22 @@ public class PlatformPlayerController : MonoBehaviour
         {
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * variableJumpHeightMultiplier);
             isJumping = false;
+             animator.SetBool("IsJumpingAnim", false);
+            
         }
         if (rb.velocity.y < 0 && !isGrounded)
         {
             rb.velocity += Vector2.up * Physics2D.gravity.y * (fallingSpeed - 1) * Time.deltaTime;
         }
+
+        
+        
+
+        
+    }
+    public void OnLanding()
+    {
+        animator.SetBool("IsJumpingAnim", false);
     }
 
     void FixedUpdate()
@@ -75,17 +91,14 @@ public class PlatformPlayerController : MonoBehaviour
         if (horizontalInput > 0 && !PauseMenu.isPaused)
         {
             transform.localScale = new Vector3(2f, 2f, 1f); // Facing right
+            animator.SetFloat("Speed", horizontalInput);
         }
         else if (horizontalInput < 0 && !PauseMenu.isPaused)
         {
             transform.localScale = new Vector3(-2f, 2f, 1f); // Facing Left
+            animator.SetFloat("Speed", Mathf.Abs(horizontalInput));
         }
     }
 
-    void OnDrawGizmosSelected()
-    {
-        // Visualize the ground check radius in the Scene view
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
-    }
+   
 }
