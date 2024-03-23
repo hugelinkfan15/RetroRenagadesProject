@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,7 +12,7 @@ public class SoundMenu : ScriptableObject
     public float masterVolume;
     public float sFXVolume;
     public float musicVolume;
-    private void OnDisable()
+    private void OnEnable()
     {
         masterVolume = 1f; sFXVolume= 1f; musicVolume = 1f;
     }

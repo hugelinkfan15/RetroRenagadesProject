@@ -866,6 +866,10 @@ PrefabInstance:
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SetSoundFXVolume
       objectReference: {fileID: 0}
+    - target: {fileID: 1945028764465850378, guid: a55e4eda7cd1ee247971e4f58b32bccb, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -5
+      objectReference: {fileID: 0}
     - target: {fileID: 1945028764577515601, guid: a55e4eda7cd1ee247971e4f58b32bccb, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -884,6 +888,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1945028764651088587, guid: a55e4eda7cd1ee247971e4f58b32bccb, type: 3}
       propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1945028764973242152, guid: a55e4eda7cd1ee247971e4f58b32bccb, type: 3}
+      propertyPath: m_Direction
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1945028764973242152, guid: a55e4eda7cd1ee247971e4f58b32bccb, type: 3}

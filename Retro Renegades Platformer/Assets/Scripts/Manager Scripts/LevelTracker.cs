@@ -1,7 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/// <summary>
+/// Keeps track of what levels have been completed
+/// Levelbuttons must be added manually in the Unity inspector
+/// </summary>
 public class LevelTracker : MonoBehaviour
 {
     public static Dictionary<int, bool> levelTracker = new Dictionary<int, bool> { { 1, false }, { 2, false }, { 3, false }, { 4, false } };
