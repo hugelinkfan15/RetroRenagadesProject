@@ -25,9 +25,7 @@ public class ExitScript : MonoBehaviour
                 ShowWinText();
             }
             else
-            {
-
-
+            { 
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
         }
