@@ -7,7 +7,7 @@ using UnityEngine;
 /// </summary>
 public class LevelTracker : MonoBehaviour
 {
-    public static Dictionary<int, bool> levelTracker = new Dictionary<int, bool> { { 1, false }, { 2, false }, { 3, false }, { 4, false } };
+    public static Dictionary<int, bool> levelTracker = new Dictionary<int, bool> { { 1, false }, { 2, false }, { 3, false }, { 4, false }, { 5, false } };
     [SerializeField] private GameObject[] levelButtons;
     // Start is called before the first frame update
 
