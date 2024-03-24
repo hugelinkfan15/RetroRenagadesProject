@@ -2086,6 +2086,10 @@ PrefabInstance:
       propertyPath: yDeathZone
       value: -15
       objectReference: {fileID: 0}
+    - target: {fileID: 7627100220457163387, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
+      propertyPath: deathCountData
+      value: 
+      objectReference: {fileID: 11400000, guid: 53d3a8789edf3314697107e3b512e347, type: 2}
     - target: {fileID: 7627100220700772232, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
       propertyPath: m_fontColor.b
       value: 0

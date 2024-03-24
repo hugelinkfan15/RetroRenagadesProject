@@ -1,59 +1,42 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
 public class DeathManager : MonoBehaviour
 {
-    public static int deathCount;
-    public static int tDeaths = 0;
     public TMP_Text deathCountText;
     public Transform respawnPoint;
     public GameObject player;
     public int yDeathZone;
+    public DeathCountData deathCountData;
 
-    /// <summary>
-    /// Start is called before the first frame update
-    /// </summary>
     void Start()
     {
-        deathCount = 0;
         UpdateDeathCountText();
     }
 
     void Update()
     {
-        if(player.transform.position.y < yDeathZone)
+        if (player.transform.position.y < yDeathZone)
         {
             PlayerDied();
         }
     }
 
-    /// <summary>
-    /// Function to handle player death
-    /// </summary>
     public void PlayerDied()
     {
-        deathCount++;
-        tDeaths++;
+        deathCountData.IncrementDeathCount();
         UpdateDeathCountText();
         RespawnPlayer();
     }
 
-    /// <summary>
-    /// Function to respawn the player
-    /// </summary>
-     void RespawnPlayer()
+    void RespawnPlayer()
     {
-        player.transform.position = respawnPoint.transform.position;
+        player.transform.position = respawnPoint.position;
         player.SetActive(true);
     }
 
-    /// <summary>
-    /// Function to update death count text
-    /// </summary>
-     void UpdateDeathCountText()
+    void UpdateDeathCountText()
     {
-        deathCountText.text = "Deaths: " + deathCount;
+        deathCountText.text = "Deaths: " + deathCountData.deathCount;
     }
 }

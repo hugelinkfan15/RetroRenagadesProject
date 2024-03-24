@@ -23,7 +23,7 @@ public class ExitScript : MonoBehaviour
             if (isFinalLevel)
             {
                 ShowWinText();
-                SceneManager.LoadScene(9);
+                SceneManager.LoadScene(10);
             }
             else
             { 
