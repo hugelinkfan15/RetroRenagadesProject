@@ -140,6 +140,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (6)
@@ -211,6 +215,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (36)
@@ -426,6 +434,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Size.x
+      value: 2.583428
+      objectReference: {fileID: 0}
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.9272249
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (62)
@@ -522,6 +538,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (2)
@@ -593,6 +613,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (46)
@@ -664,6 +688,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (34)
@@ -940,6 +968,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (20)
@@ -1001,6 +1033,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Size.x
+      value: 1.623076
+      objectReference: {fileID: 0}
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.4470489
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (47)
@@ -4191,6 +4231,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Size.x
+      value: 2.4242806
+      objectReference: {fileID: 0}
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Size.y
+      value: 0.35100913
+      objectReference: {fileID: 0}
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.84765124
+      objectReference: {fileID: 0}
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.325585
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (45)
@@ -4323,6 +4379,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (8)
@@ -4591,6 +4651,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (24)
@@ -4662,6 +4726,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (56)
@@ -4738,6 +4806,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (38)
@@ -4829,6 +4901,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (57)
@@ -4890,6 +4966,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Size.x
+      value: 1.6693611
+      objectReference: {fileID: 0}
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.47019148
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (15)
@@ -4951,6 +5035,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (10)
@@ -5027,6 +5115,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (18)
@@ -5088,6 +5180,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (40)
@@ -5154,6 +5250,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (31)
@@ -5220,6 +5320,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (48)
@@ -5281,6 +5385,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Size.x
+      value: 1.6427791
+      objectReference: {fileID: 0}
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.45690036
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (13)
@@ -5342,6 +5454,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (22)
@@ -5408,6 +5524,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (26)
@@ -5474,6 +5594,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Size.x
+      value: 11.687937
+      objectReference: {fileID: 0}
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Offset.x
+      value: 5.47948
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (32)
@@ -5535,6 +5663,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (42)
@@ -5596,6 +5728,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (5)
@@ -5657,6 +5793,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (52)
@@ -5718,6 +5858,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (9)
@@ -5985,6 +6129,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (51)
@@ -6170,11 +6318,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3122926768456174488, guid: 15c985d056bb1d64fab5d91ef3504a07, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 51.5
+      value: -30.98
       objectReference: {fileID: 0}
     - target: {fileID: 3122926768456174488, guid: 15c985d056bb1d64fab5d91ef3504a07, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -18.7
+      value: 13.51
       objectReference: {fileID: 0}
     - target: {fileID: 3122926768456174488, guid: 15c985d056bb1d64fab5d91ef3504a07, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6265,6 +6413,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (3)
@@ -6336,6 +6488,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (41)
@@ -6397,6 +6553,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Size.x
+      value: 11.484488
+      objectReference: {fileID: 0}
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Offset.x
+      value: 5.377755
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform
@@ -6458,6 +6622,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (43)
@@ -6593,6 +6761,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (25)
@@ -6659,6 +6831,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (35)
@@ -6720,6 +6896,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (64)
@@ -6786,6 +6966,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (7)
@@ -6847,6 +7031,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (1)
@@ -6918,6 +7106,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (37)
@@ -6984,6 +7176,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (21)
@@ -7045,6 +7241,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (14)
@@ -7106,6 +7306,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Size.x
+      value: 2.5486836
+      objectReference: {fileID: 0}
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.90985274
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (55)
@@ -7167,6 +7375,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (17)
@@ -7233,6 +7445,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Size.x
+      value: 2.5385804
+      objectReference: {fileID: 0}
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.90480113
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (50)
@@ -7294,6 +7514,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Size.x
+      value: 10.554857
+      objectReference: {fileID: 0}
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Offset.x
+      value: 4.91294
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (16)
@@ -7360,6 +7588,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (11)
@@ -7421,6 +7653,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (19)
@@ -7543,6 +7779,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (4)
@@ -7614,6 +7854,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (23)
@@ -7675,6 +7919,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (12)
@@ -7736,6 +7984,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (63)
@@ -7883,6 +8135,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (33)
@@ -7944,6 +8200,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (44)
@@ -8188,6 +8448,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Size.x
+      value: 1.611031
+      objectReference: {fileID: 0}
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.44102645
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (30)
@@ -8310,6 +8578,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172753021}
     m_Modifications:
+    - target: {fileID: -2379546038088833184, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1603763401895149234, guid: 6c0e7c6b7306a6c448b280cab18281b4, type: 3}
       propertyPath: m_Name
       value: ShortSpikePlatform (39)
