@@ -217,13 +217,41 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 232047206349605626, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 232047206349605626, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 396
+      objectReference: {fileID: 0}
     - target: {fileID: 1077674100869942244, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1581940413808588530, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
+      propertyPath: m_text
+      value: You Win!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1581940413808588530, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1581940413808588530, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
+      propertyPath: m_fontSize
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 1581940413808588530, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1581940413808588530, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 1581940413808588530, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2814969140032151574, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
       propertyPath: m_IsActive
@@ -307,9 +335,13 @@ PrefabInstance:
       propertyPath: m_fontSizeBase
       value: 80
       objectReference: {fileID: 0}
+    - target: {fileID: 7627100220700772232, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7627100220700772234, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -49
+      value: -149
       objectReference: {fileID: 0}
     - target: {fileID: 7627100220700772234, guid: 42b19a2f97b361245ba04ed37e983e81, type: 3}
       propertyPath: m_AnchoredPosition.y
