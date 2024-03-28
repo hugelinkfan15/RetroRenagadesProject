@@ -29,7 +29,7 @@ public class SpikeTrigger : MonoBehaviour
     }
     void SpawnCorpsePlatform(Vector2 position)
     {
-        float yOffset = -0.8f;
+        float yOffset = -0.3f;
 
         Vector3 spawnPosition = new Vector3(position.x, position.y + yOffset);
         GameObject newCorpsePlatform = Instantiate(CorpsePlatform, spawnPosition, Quaternion.identity);

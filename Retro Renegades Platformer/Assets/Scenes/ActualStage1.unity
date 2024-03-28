@@ -1999,11 +1999,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3122926768456174484, guid: 15c985d056bb1d64fab5d91ef3504a07, type: 3}
       propertyPath: m_Size.y
-      value: 0.75
+      value: 0.6230334
       objectReference: {fileID: 0}
     - target: {fileID: 3122926768456174484, guid: 15c985d056bb1d64fab5d91ef3504a07, type: 3}
       propertyPath: m_Offset.y
-      value: -0.1
+      value: -0.036516726
       objectReference: {fileID: 0}
     - target: {fileID: 3122926768456174486, guid: 15c985d056bb1d64fab5d91ef3504a07, type: 3}
       propertyPath: fallingSpeed
@@ -2064,7 +2064,7 @@ PrefabInstance:
     - target: {fileID: 3122926768456174489, guid: 15c985d056bb1d64fab5d91ef3504a07, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -6367560908665664636, guid: 40de9a8703e2e5a47882b0b86451c741, type: 3}
+      objectReference: {fileID: -1496642684519901557, guid: aa453f308b5895241ae8435ca18063c9, type: 3}
     - target: {fileID: 3122926768456174489, guid: 15c985d056bb1d64fab5d91ef3504a07, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -2083,7 +2083,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3122926769735849179, guid: 15c985d056bb1d64fab5d91ef3504a07, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.53
+      value: -0.358
       objectReference: {fileID: 0}
     - target: {fileID: 4505725506801771108, guid: 15c985d056bb1d64fab5d91ef3504a07, type: 3}
       propertyPath: m_Controller

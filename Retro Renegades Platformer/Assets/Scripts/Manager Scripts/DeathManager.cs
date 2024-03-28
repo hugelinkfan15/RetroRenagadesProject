@@ -32,6 +32,8 @@ public class DeathManager : MonoBehaviour
     void RespawnPlayer()
     {
         player.transform.position = respawnPoint.position;
+        player.GetComponent<Rigidbody2D>().velocity = Vector2.zero; // Reset y velocity to 0
+
         player.SetActive(true);
     }
 
