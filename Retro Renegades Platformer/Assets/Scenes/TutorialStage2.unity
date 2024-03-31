@@ -2177,6 +2177,10 @@ PrefabInstance:
       propertyPath: winText
       value: 
       objectReference: {fileID: 1933603160}
+    - target: {fileID: 4984854426241005998, guid: f3900289d2a3f8349a3e835c89600095, type: 3}
+      propertyPath: levelKey
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4984854426241005999, guid: f3900289d2a3f8349a3e835c89600095, type: 3}
       propertyPath: m_Size.x
       value: 0.5
